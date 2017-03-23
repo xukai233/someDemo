@@ -1,0 +1,57 @@
+$defPaddingPX: 10px 0;
+.my{
+  .my-top{
+    .phoneNumber{
+      margin: 40px 0 0 0;
+      color: #fff;
+      font-size: 16px;
+    }
+    .yue{
+      color: #fff;
+    }
+    background: #3db2f5;
+    overflow: hidden;
+    padding: $defPaddingPX;
+    .photo{
+      width: 100px;
+      border-radius:  90px;
+      float: left;
+      margin: 0 20px 0 10px;
+    }
+  }
+}
+
+
+#my-cardMenu{
+    height: 60px;
+    background:-moz-linear-gradient(left,#2e86dc,#3ba7df);/*Mozilla*/
+    background:-webkit-gradient(linear,0 50%,100% 50%,from(#2e86dc),to(#3ba7df));/*Old gradient for webkit*/
+    background:-webkit-linear-gradient(left,#2e86dc,#3ba7df);/*new gradient for Webkit*/
+    background:-o-linear-gradient(left,#2e86dc,#3ba7df); /*Opera11*/
+    padding:8px 0 0 0 ;
+    img{
+      width: 30px;
+    height: 30px;
+    display: block;
+    margin: 0 auto
+    }
+    .el-col{
+      text-align: center;
+      
+      span{
+        display: block;
+        height: 20px;
+        line-height: 20px;color: #fff;
+      }
+    }
+}
+.myList{
+    height: 20px;
+    line-height: 20px;
+    padding: 10px 10px;
+    border-bottom:1px solid #ccc;
+    font-size: 14px;
+    i{
+      margin: 0 10px 0 0;font-size: 18px;color: #3db2f5
+    }
+}
